@@ -15,26 +15,37 @@ const SignUp = () => {
         </Center>
         <div className="rightPart">
           <h2 className="headingSignup">Sign Up</h2>
-          <p>
+          <p className="otpstyletext1">
             Please enter your Mobile number to receive One Time Password (OTP)
           </p>
           <input type="number" placeholder="Enter Mobile Number" />
-          <input type="checkbox" />
-          <label>Are you a healthcare professional?</label>
-          <input type="submit" value="continue" />
-          <div>
-            <p>Have an account?</p>
-            <a href="">Login</a>
+          <br />
+          <div className="styletext4">
+            <input type="checkbox" />
+            <label> Are you a healthcare professional?</label>
           </div>
-          <div>
+          <input type="submit" value="continue" />
+          <div className="haveaccount">
+            <p>Have an account? </p>
+            <a href="" className="login">
+              &nbsp; Login
+            </a>
+          </div>
+          <div className="styletext3">
             <p>
-              By signing up, you agree to our
+              <p className="log">By signing up, you agree to our</p>
               <span>
-                <a href="">Terms and Conditions</a>
+                <a href="" className="linkTerms">
+                  {" "}
+                  Terms and Conditions
+                </a>
               </span>{" "}
               &{" "}
               <span>
-                <a href="">Privacy Policy</a>
+                <a href="" className="linkTerms">
+                  {" "}
+                  Privacy Policy
+                </a>
               </span>
             </p>
           </div>

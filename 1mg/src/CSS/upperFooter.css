@@ -1,14 +1,23 @@
-.heading{
-    font-weight: 600;
-    font-size: 1.15rem;
+.maintext{
+  width: 95%;
+  margin: auto;
+  line-height: 25px;
 }
-.lowerheading{
-    font-weight: 500;
-    font-size: 1rem;
+.heading1{
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 20px;
+  
+}
+.lowerheading1{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 15px;
 }
 .p{
-    font-size: 16px;
+  color: #666;
+  margin-top: 10px;
 }
 .bold{
-    font-weight: 600;
+  font-weight: 600;
 }
