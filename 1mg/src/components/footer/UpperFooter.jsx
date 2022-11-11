@@ -4,12 +4,12 @@ import "../../CSS/upperFooter.css";
 
 const UpperFooter = () => {
   return (
-    <Box>
-      <Text className="heading">
+    <Box className="maintext">
+      <Text className="heading1">
         Stay Healthy with Tata 1mg: Your Favourite Online Pharmacy and
         Healthcare Platform
       </Text>
-      <Text className="lowerheading">We Bring Care to Health.</Text>
+      <Text className="lowerheading1">We Bring Care to Health.</Text>
       <Text className="p">
         Tata 1mg is India's leading digital healthcare platform. From doctor
         consultations on chat to online pharmacy and lab tests at home: we have
@@ -17,7 +17,7 @@ const UpperFooter = () => {
         cities till date, we are on a mission to bring "care" to "health" to
         give you a flawless healthcare experience.
       </Text>
-      <Text className="lowerheading">
+      <Text className="lowerheading1">
         Tata 1mg: Your Favourite Online Pharmacy!
       </Text>
       <Text className="p">
@@ -45,26 +45,26 @@ const UpperFooter = () => {
         Now, isn't that easy? Why go all the way to the medicine store and wait
         in line, when you have Tata 1mg Pharmacy at your service.
       </Text>
-      <Text className="lowerheading">The Feathers in Our Cap</Text>
+      <Text className="lowerheading1">The Feathers in Our Cap</Text>
       <Text className="p">
         At Tata 1mg, our goal is to make healthcare understandable, accessible
         and affordable in India. We set out on our journey in 2015, and have
         come a long way since then. Along the way, we have been conferred with
         prestigious titles like
         <span className="bold">
-          BML Munjal Award for 'Business Excellence through Learning and
+        &nbsp;BML Munjal Award for 'Business Excellence through Learning and
           Development', Best Online Pharmacy in India Award and Top 50 venture
           in The Smart CEO-Startup50 India.
         </span>
         We have been selected as the only company from across the globe for
         <span className="bold">
-          SD#3 "Health & Well Being for all" by Unreasonable group, US State
+        &nbsp;SD#3 "Health & Well Being for all" by Unreasonable group, US State
           Department.
         </span>
         In 2019 alone we received three awards including the
-        <span className="bold"> BMW Simply Unstoppable Award.</span>
+        <span className="bold">&nbsp;BMW Simply Unstoppable Award.</span>
       </Text>
-      <Text className="lowerheading">The Services We Offer</Text>
+      <Text className="lowerheading1">The Services We Offer</Text>
       <Text className="p">
         Tata 1mg is India's leading digital healthcare platform, where you can
         buy medicines online with discount. Buy medicine online in Delhi,
